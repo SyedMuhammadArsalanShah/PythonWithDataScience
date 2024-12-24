@@ -1,0 +1,43 @@
+# Python Lecture: Loops and Iterative Calculations
+
+# Example 1: Printing a Separator
+print("*" * 10)  # Output: **********
+
+# While Loops
+
+# Example 2: While Loop with Index Increment
+i = 1
+while i <= 10:
+    i += 1
+    print("index value =", i)  # Output: index value from 2 to 11
+
+# Example 3: Generating a Multiplication Table Using While Loop
+num = int(input("Enter Your Number: "))  # User inputs a number
+j = 1
+while j <= 10:
+    table = num * j
+    print(table)  # Output: Multiplication table of the input number
+    j += 1
+
+# Example 4: Calculating Factorial Using While Loop
+fact = 1
+count = 1
+while count <= num:
+    fact = fact * count
+    count += 1
+print("Factorial is =", fact)  # Output: Factorial of the input number
+# Example: 5! = 5 * 4 * 3 * 2 * 1
+
+# Example 5: Calculating the Sum Using While Loop
+fact = 0
+count = 1
+while count <= num:
+    fact = fact + count
+    count += 1
+print("Sum is =", fact)  # Output: Sum of numbers from 1 to the input number
+
+# For Loops
+
+# Example 6: Iterating Using a For Loop
+for i in range(10):
+    print("index =", i)  # Output: index values from 0 to 9
